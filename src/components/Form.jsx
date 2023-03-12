@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Form = () => {
-    const [state, setState] = useState({ firstName: '', lastName: '' })
+    const [state, setState] = useState({ firstName: "", lastName: "" })
 
     const Event = (e) => {
         const { name, value } = e.target
